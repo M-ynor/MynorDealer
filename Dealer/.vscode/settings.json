@@ -1,0 +1,5 @@
+{
+    "liveshare.accessibility.soundVolume": 0,
+    "liveshare.accessibility.soundsEnabled": false,
+    "tailwindCSS.lint.invalidApply": "ignore"
+}
