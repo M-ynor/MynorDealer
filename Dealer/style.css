@@ -143,20 +143,21 @@ header.shadow #search-icon{
 }
 
 .home{
-    max-width: 1300px;
+    max-width: 2000px;
     margin: auto;
-    width: 100%;
+    width: 205.78vh;
     min-height: 640px;
     display: flex;
     align-items: center;
-    background: url(/img/Background-home.png);
+    background: url(/img/ola.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center left;
+    background-position: center;
 }
 
 .home-text{
-    padding-left: 130px;
+    padding-left: 200px;
+    color: white;
 }
 
 .home-text h1{
@@ -165,10 +166,12 @@ header.shadow #search-icon{
 
 
 .home-text span{
-    color: var(--main-color);
+    font-weight: 1000;
+    color: var(--main-color)
 }
 
 .home-text p{
+    color: white;
     font-size: 0.938rem;
     font-weight: 300;
     margin: 0.5rem 0 1.2rem;
