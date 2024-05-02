@@ -142,10 +142,10 @@ header.shadow #search-icon{
 
 }
 
-.home{
+.home {
     max-width: 2000px;
     margin: auto;
-    width: 205.78vh;
+    width: 100%; /* Cambia a 100% para que sea responsive */
     min-height: 640px;
     display: flex;
     align-items: center;
@@ -153,6 +153,20 @@ header.shadow #search-icon{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+}
+/* Media query para tablets */
+@media (max-width: 768px) {
+    .home {
+        min-height: 500px; /* Ajusta el valor según tus necesidades */
+    }
+}
+
+/* Media query para móviles */
+@media (max-width: 480px) {
+    .home {
+        min-height: 300px; /* Ajusta el valor según tus necesidades */
+        min-width: 10%;
+    }
 }
 
 .home-text{
@@ -175,6 +189,26 @@ header.shadow #search-icon{
     font-size: 0.938rem;
     font-weight: 300;
     margin: 0.5rem 0 1.2rem;
+}
+/* Media query para tablets */
+@media (max-width: 768px) {
+    .home-text {
+        font-size: 1rem;
+    }
+    .home-text h1 {
+        font-size: 1.5rem;/* Ajusta según tus necesidades */
+    }
+}
+
+/* Media query para móviles */
+@media (max-width: 480px) {
+    .home-text {
+        font-size: 0.6rem;
+        padding-left: 30px/* Ajusta según tus necesidades */
+    }
+    .home-text h1 {
+        font-size: 1rem; /* Ajusta según tus necesidades */
+    }
 }
 
 .btn{
@@ -488,12 +522,6 @@ header.shadow #search-icon{
     }
     section {
       padding: 3rem 0 1rem;
-    }
-    .home-text {
-      padding-left: 2rem;
-    }
-    .home-text h1 {
-      font-size: 2.1rem;
     }
   }
   @media (max-width: 920px) {
